@@ -50,3 +50,194 @@
         height: auto;
     
     }
+    .safe-soon{
+        position: relative;
+        align-items: right;
+        text-align: left;
+        width: 30%;
+        height: auto;
+       
+    }
+    .safe-soon > button{
+        width: 10rem;
+        height: 2rem;
+        color:antiquewhite;
+       border-radius: 15px;
+       background-color: rgb(22, 22, 22);
+    
+    }
+    .take-soon > button{
+        width: 10rem;
+        height: 2rem;
+        color:antiquewhite;
+       border-radius: 15px;
+       background-color: rgb(22, 22, 22);
+    }
+    .safe-soon-img{
+        width:40%;
+        height:50%;
+        padding: 0rem;
+        margin: 1rem;
+    }
+    .take-soon-img{
+    
+        width: 40%;
+        height:50%;
+        padding: 0rem;
+        margin: 1rem;
+    
+    }
+    .safe-soon-img > img{
+        width: 90%;
+        height:50%;
+        padding: 0rem;
+        margin: 1rem;
+    }
+    .take-soon-img > img{
+    
+        width: 90%;
+        height:50%;
+        padding: 0rem;
+        margin: 1rem;
+    
+    }
+    
+    .take-container{
+        width: 100%;
+        display: flex;
+        position: relative;
+        justify-content: space-around;
+        margin: 8rem 0rem 2rem 0rem;
+       
+    }
+    .safe-container{
+        width: 100%;
+        display: flex;
+        position: relative;
+        justify-content: space-around;
+        margin: 2rem 0rem 10rem 0rem;
+    
+    
+    }
+    
+    .trapecio {
+    width: auto;
+    height: 55vw;
+    background-color: rgb(0, 255, 179);
+    clip-path: polygon(0 51%, 100% 0%, 100% 100%, 0% 100%);
+    margin: 2rem 0rem -60rem 0rem;
+      
+    
+    
+    }
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .check-container{
+        display: flex;
+        text-align: center;
+        justify-content: center;}
+        
+        .check-premiun > button{
+            border-radius: 14px;
+            background-color: rgb(0, 255, 179);
+            height: 3rem;
+            width: 30%;
+        }
+        .check-profecional > button{
+            border-radius: 14px;
+            background-color: whitesmoke;
+            height: 3rem;
+            width: 30%;
+        }
+        .check-startup > button{
+            border-radius: 14px;
+            background-color: whitesmoke;
+            height: 3rem;
+            width: 30%;
+        }
+    .check-startup{
+        height:25rem;
+        width: 33%;
+        margin: 2rem;
+        padding:4rem 0rem 0rem 0rem;
+    }
+    .check-profecional{
+        height:25rem;
+        width: 33%;
+        margin: 2rem;
+        padding:4rem 0rem 0rem 0rem;
+     
+    }
+    .check-premiun{
+     
+        height:25rem;
+        width: 25%;
+        margin: 2rem;
+        padding:4rem 0rem 0rem 0rem;
+        background: rgb(0, 15, 43);
+        border-radius: 5px;
+        color:#fff;
+    }
+    
+    .brands-container{
+        display: flex;
+        justify-content:  center;
+        height: 100%;
+        height: auto;
+        background-color: rgb(230, 232, 255);
+        padding: 2rem;
+        margin:0 ;}
+    
+    .brands-img{
+    
+        height:auto;   
+        width: auto;
+        margin: auto;
+    }
+    .contact-container{
+    display: flex;
+    background-image: url(images/contact-bk.jpg);
+    width:auto;
+    justify-items: center;
+    margin: 0rem;
+    
+    
+    }
+    .contact-text{
+    color: #fff;
+    width: 50%;
+    padding: 4rem;
+    margin:  4rem 4rem 4rem 0rem;
+    
+    
+    }
+    
+    .contact-from{
+    
+        width: 50%;
+        height: 100%;
+        text-align: left;
+        padding: 4rem;
+    
+    
+    
+    }
+    .contact-from1{
+        
+        display: flex;
+        width: auto;
+        height: auto;
+       
+    
+    
+    }
+    .contact-from2{
+        width: auto;
+        height: auto;
+    }
+    
+    label{
+        color:rgb(0, 255, 179);
+        height: 2rem;
+    }
